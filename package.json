@@ -1,0 +1,40 @@
+{
+  "name": "restfulbasicapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" --files src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hujianboo/RestfulBasicApi.git"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json-error": "^3.1.2",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.11.19"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hujianboo/RestfulBasicApi/issues"
+  },
+  "homepage": "https://github.com/Hujianboo/RestfulBasicApi#readme",
+  "devDependencies": {
+    "@types/koa": "^2.13.1",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-json-error": "^3.1.2",
+    "@types/koa-router": "^7.4.1",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.31",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
