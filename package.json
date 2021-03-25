@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" --files src/index.ts"
+    "dev": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" --files src/index.ts",
+    "ickt": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" --files src/ICKT/index.ts"
+
   },
   "repository": {
     "type": "git",
